@@ -131,5 +131,10 @@ if ans == 1:
 else:
     print("Wrong Answer!.......")
 
-print("\nTotal Questions =", Quiz)
+import time
+print("please wait.....")
+time.sleep(10)
+print("Almost Done.....")
+time.sleep(5)
+print("Total Questions =",Quiz)
 print("Total Score =", Score)
