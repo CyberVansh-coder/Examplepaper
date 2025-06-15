@@ -193,4 +193,3 @@ elif percentage >= 30:
     print("😐 Needs Improvement. Study more!")
 else:
     print("❌ Fail. Don't give up, try again!")
-    ```
