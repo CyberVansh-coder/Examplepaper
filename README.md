@@ -48,7 +48,7 @@ def print_quiz_banner():
 def register():
     print("\n🔐 User Registration")
     username = input("🧑‍ Enter Your New Registation ID:")
-    password = input("🔐 Enter Your new password: ")
+    password = input("🔑 Enter Your new password: ")
 
     with open("users.txt", "a") as file:
         file.write(f"{username},{password}\n")
@@ -57,8 +57,8 @@ def register():
 # --------------------------
 # Login Function
 # --------------------------
-def login():
-    print("🔑 User Login")
+def login():         
+    print("🔒 User Login")
     username = input("👤 Enter Your Registation ID: ")
     password = input("🔑 Enter Your Password: ")
 
