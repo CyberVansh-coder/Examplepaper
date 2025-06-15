@@ -22,7 +22,7 @@ import time
 # Banner Functions
 # --------------------------
 def print_login_banner():
-    print("""
+    print(r"""
  __         ______     ______     __     __   __    
 /\ \       /\  __ \   /\  ___\   /\ \   /\ "-.\ \   
 \ \ \____  \ \ \/\ \  \ \ \__ \  \ \ \  \ \ \-.  \  
@@ -31,7 +31,7 @@ def print_login_banner():
 """)
 
 def print_quiz_banner():
-    print("""
+    print(r"""
     [....                        
   [..    [..          [.         
 [..       [..[..  [..   [.... [..
