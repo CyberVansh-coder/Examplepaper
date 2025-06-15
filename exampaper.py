@@ -2,10 +2,8 @@ import time
 import os
 
 # --------------------------
-# Banner
+# Banner 1 Function
 # --------------------------
-def print_banner():
-
 def print_banner():
     print("""
  __         ______     ______     __     __   __    
@@ -14,7 +12,7 @@ def print_banner():
  \ \_____\  \ \_____\  \ \_____\  \ \_\  \ \_\\"\_\ 
   \/_____/   \/_____/   \/_____/   \/_/   \/_/ \/_/ 
 """)
- 
+
 # --------------------------
 # Registration Function
 # --------------------------
@@ -46,7 +44,9 @@ def login():
     print("❌ Invalid credentials! Try again.\n")
     return False
 
-# Banner
+# --------------------------
+# Banner 2 (Direct print)
+# --------------------------
 print("""
     [....                        
   [..    [..          [.         
@@ -77,7 +77,6 @@ def ask_question(question, options, correct_ans):
         print("⚠️ Invalid Input! Treated as wrong.")
     Quiz += 1
 
-
 # --------------------------
 # Loading Animation
 # --------------------------
@@ -88,7 +87,6 @@ def loading():
         time.sleep(1)
     print("\nAlmost Done...")
     time.sleep(2)
-
 
 # --------------------------
 # Questions List
@@ -124,7 +122,6 @@ questions = [
     ("What is a quick way to open Notepad?",
      ["Type \"notepad\" in Run", "Open Paint", "Link It From MS Word", "Use Task Manager"], 1),
 ]
-
 
 # --------------------------
 # Main Program
